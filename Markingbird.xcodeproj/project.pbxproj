@@ -7,13 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4E2A478D19A5EADD00B23DB6 /* testfiles in Resources */ = {isa = PBXBuildFile; fileRef = 4E2A478C19A5EADD00B23DB6 /* testfiles */; };
-		4E2A478F19A5EB6F00B23DB6 /* MDTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2A478E19A5EB6F00B23DB6 /* MDTestTests.swift */; };
-		4E3CBBA519A4A70400940D90 /* ConfigTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3CBBA419A4A70400940D90 /* ConfigTest.swift */; };
 		4EAF8DBF19A212F30020CA43 /* Markingbird.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EAF8DBE19A212F30020CA43 /* Markingbird.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4EAF8DD319A213340020CA43 /* Markdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAF8DD219A213340020CA43 /* Markdown.swift */; };
-		4EAF8DD519A213470020CA43 /* SimpleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAF8DD419A213470020CA43 /* SimpleTests.swift */; };
-		4EC0AF3519A90DAC0068A458 /* differences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC0AF3419A90DAC0068A458 /* differences.swift */; };
 		7AA8CE531D7BB03C00319FC8 /* Markingbird-iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AA8CE521D7BB03C00319FC8 /* Markingbird-iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7AA8CE581D7BB04000319FC8 /* Markdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAF8DD219A213340020CA43 /* Markdown.swift */; };
 		A718D9711E13611500DA012D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A718D9701E13611500DA012D /* AppDelegate.swift */; };
@@ -24,28 +19,11 @@
 		A718D9801E13617200DA012D /* Markdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAF8DD219A213340020CA43 /* Markdown.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		4EAF8DD619A213720020CA43 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4EAF8DB019A212F30020CA43 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4EAF8DB819A212F30020CA43;
-			remoteInfo = Markingbird;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		4E2A478C19A5EADD00B23DB6 /* testfiles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = testfiles; sourceTree = "<group>"; };
-		4E2A478E19A5EB6F00B23DB6 /* MDTestTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MDTestTests.swift; sourceTree = "<group>"; };
-		4E3CBBA419A4A70400940D90 /* ConfigTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigTest.swift; sourceTree = "<group>"; };
 		4EAF8DB919A212F30020CA43 /* Markingbird.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Markingbird.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EAF8DBD19A212F30020CA43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4EAF8DBE19A212F30020CA43 /* Markingbird.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Markingbird.h; sourceTree = "<group>"; };
-		4EAF8DC419A212F30020CA43 /* MarkingbirdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarkingbirdTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4EAF8DC719A212F30020CA43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4EAF8DD219A213340020CA43 /* Markdown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Markdown.swift; sourceTree = "<group>"; };
-		4EAF8DD419A213470020CA43 /* SimpleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleTests.swift; sourceTree = "<group>"; };
-		4EC0AF3419A90DAC0068A458 /* differences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = differences.swift; sourceTree = "<group>"; };
 		7AA8CE501D7BB03C00319FC8 /* Markingbird.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Markingbird.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AA8CE521D7BB03C00319FC8 /* Markingbird-iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Markingbird-iOS.h"; sourceTree = "<group>"; };
 		7AA8CE541D7BB03C00319FC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -60,13 +38,6 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		4EAF8DB519A212F30020CA43 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4EAF8DC119A212F30020CA43 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -94,7 +65,6 @@
 			isa = PBXGroup;
 			children = (
 				4EAF8DBB19A212F30020CA43 /* Markingbird */,
-				4EAF8DC519A212F30020CA43 /* MarkingbirdTests */,
 				7AA8CE511D7BB03C00319FC8 /* Markingbird-iOS */,
 				A718D96F1E13611500DA012D /* Markingbird-iOS-Demo */,
 				4EAF8DBA19A212F30020CA43 /* Products */,
@@ -105,7 +75,6 @@
 			isa = PBXGroup;
 			children = (
 				4EAF8DB919A212F30020CA43 /* Markingbird.framework */,
-				4EAF8DC419A212F30020CA43 /* MarkingbirdTests.xctest */,
 				7AA8CE501D7BB03C00319FC8 /* Markingbird.framework */,
 				A718D96E1E13611400DA012D /* Markingbird-iOS-Demo.app */,
 			);
@@ -126,27 +95,6 @@
 			isa = PBXGroup;
 			children = (
 				4EAF8DBD19A212F30020CA43 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		4EAF8DC519A212F30020CA43 /* MarkingbirdTests */ = {
-			isa = PBXGroup;
-			children = (
-				4E3CBBA419A4A70400940D90 /* ConfigTest.swift */,
-				4E2A478E19A5EB6F00B23DB6 /* MDTestTests.swift */,
-				4EAF8DD419A213470020CA43 /* SimpleTests.swift */,
-				4EAF8DC619A212F30020CA43 /* Supporting Files */,
-				4E2A478C19A5EADD00B23DB6 /* testfiles */,
-				4EC0AF3419A90DAC0068A458 /* differences.swift */,
-			);
-			path = MarkingbirdTests;
-			sourceTree = "<group>";
-		};
-		4EAF8DC619A212F30020CA43 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				4EAF8DC719A212F30020CA43 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -213,24 +161,6 @@
 			productReference = 4EAF8DB919A212F30020CA43 /* Markingbird.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		4EAF8DC319A212F30020CA43 /* MarkingbirdTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4EAF8DCF19A212F30020CA43 /* Build configuration list for PBXNativeTarget "MarkingbirdTests" */;
-			buildPhases = (
-				4EAF8DC019A212F30020CA43 /* Sources */,
-				4EAF8DC119A212F30020CA43 /* Frameworks */,
-				4EAF8DC219A212F30020CA43 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4EAF8DD719A213720020CA43 /* PBXTargetDependency */,
-			);
-			name = MarkingbirdTests;
-			productName = MarkingbirdTests;
-			productReference = 4EAF8DC419A212F30020CA43 /* MarkingbirdTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		7AA8CE4F1D7BB03C00319FC8 /* Markingbird-iOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7AA8CE571D7BB03C00319FC8 /* Build configuration list for PBXNativeTarget "Markingbird-iOS" */;
@@ -279,11 +209,7 @@
 				TargetAttributes = {
 					4EAF8DB819A212F30020CA43 = {
 						CreatedOnToolsVersion = 6.0;
-						LastSwiftMigration = 0800;
-					};
-					4EAF8DC319A212F30020CA43 = {
-						CreatedOnToolsVersion = 6.0;
-						LastSwiftMigration = 0800;
+						LastSwiftMigration = 1010;
 					};
 					7AA8CE4F1D7BB03C00319FC8 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -309,7 +235,6 @@
 			projectRoot = "";
 			targets = (
 				4EAF8DB819A212F30020CA43 /* Markingbird */,
-				4EAF8DC319A212F30020CA43 /* MarkingbirdTests */,
 				7AA8CE4F1D7BB03C00319FC8 /* Markingbird-iOS */,
 				A718D96D1E13611400DA012D /* Markingbird-iOS-Demo */,
 			);
@@ -321,14 +246,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4EAF8DC219A212F30020CA43 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4E2A478D19A5EADD00B23DB6 /* testfiles in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,17 +277,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4EAF8DC019A212F30020CA43 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4E2A478F19A5EB6F00B23DB6 /* MDTestTests.swift in Sources */,
-				4EAF8DD519A213470020CA43 /* SimpleTests.swift in Sources */,
-				4EC0AF3519A90DAC0068A458 /* differences.swift in Sources */,
-				4E3CBBA519A4A70400940D90 /* ConfigTest.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7AA8CE4B1D7BB03C00319FC8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -390,14 +296,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		4EAF8DD719A213720020CA43 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4EAF8DB819A212F30020CA43 /* Markingbird */;
-			targetProxy = 4EAF8DD619A213720020CA43 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		A718D9741E13611500DA012D /* Main.storyboard */ = {
@@ -525,7 +423,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "net.kristopherjohnson.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -546,44 +445,9 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		4EAF8DD019A212F30020CA43 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = MarkingbirdTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "net.kristopherjohnson.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		4EAF8DD119A212F30020CA43 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = MarkingbirdTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "net.kristopherjohnson.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -699,15 +563,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4EAF8DCF19A212F30020CA43 /* Build configuration list for PBXNativeTarget "MarkingbirdTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4EAF8DD019A212F30020CA43 /* Debug */,
-				4EAF8DD119A212F30020CA43 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		7AA8CE571D7BB03C00319FC8 /* Build configuration list for PBXNativeTarget "Markingbird-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -724,6 +579,7 @@
 				A718D97E1E13611500DA012D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "Markingbird"
-  s.version          = "1.13.6"
+  s.version          = "1.13.7"
   s.summary          = "Markdown processor written in Swift"
 
   s.description      = <<-DESC
